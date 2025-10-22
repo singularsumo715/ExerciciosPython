@@ -1,1 +1,98 @@
 lista 1 casa:
+1) reais = float(input("Digite o valor em reais: "))
+dolares = reais / 2.40
+print("O valor em dólares é:", dolares)
+
+2) dolares = float(input("Digite o valor em dólares: "))
+reais = dolares * 2.40
+print("O valor em reais é:", reais)
+
+3) ap = float(input("Altura da parede: "))
+lp = float(input("Largura da parede: "))
+aa = float(input("Altura do azulejo: "))
+la = float(input("Largura do azulejo: "))
+
+azulejos = (ap * lp) / (aa * la)
+print("Quantidade de azulejos:", azulejos)
+
+4) a = float(input("Lado a: "))
+b = float(input("Lado b: "))
+
+area = a * b
+perimetro = 2 * a + 2 * b
+
+print("Área:", area)
+print("Perímetro:", perimetro)
+
+5) massa = float(input("Digite sua massa (kg): "))
+altura = float(input("Digite sua altura (m): "))
+
+imc = massa / (altura ** 2)
+print("Seu IMC é:", imc)
+
+6) raio = float(input("Digite o raio: "))
+pi = 3.14
+
+area = pi * (raio ** 2)
+comprimento = 2 * pi * raio
+
+print("Área:", area)
+print("Comprimento:", comprimento)
+
+7) raio = float(input("Digite o raio da esfera: "))
+pi = 3.14
+
+volume = (4/3) * pi * (raio ** 3)
+area = 4 * pi * (raio ** 2)
+
+print("Volume:", volume)
+print("Área:", area)
+
+8) n1 = float(input("Nota 1: "))
+n2 = float(input("Nota 2: "))
+n3 = float(input("Nota 3: "))
+n4 = float(input("Nota 4: "))
+
+media = (n1 + n2 + n3 + n4) / 4
+print("Média final:", media)
+
+9) p1 = float(input("Nota da P1: "))
+p2 = float(input("Nota da P2: "))
+ativ = float(input("Nota das atividades: "))
+
+media = (p1 * 4 + p2 * 4 + ativ * 2) / 10
+print("Média final:", media)
+
+10)
+a = input("Digite o valor de a: ")
+b = input("Digite o valor de b: ")
+
+c = a
+a = b
+b = c
+
+print("Agora a vale:", a)
+print("Agora b vale:", b)
+
+11) a = input("Digite o valor de a: ")
+b = input("Digite o valor de b: ")
+
+a, b = b, a
+
+print("Agora a vale:", a)
+print("Agora b vale:", b)
+
+12) espaco = float(input("Espaço percorrido (m): "))
+tempo = float(input("Tempo gasto (s): "))
+
+velocidade = espaco / tempo
+print("Velocidade média:", velocidade, "m/s")
+
+13) s0 = 2
+v0 = 3
+a = 10
+
+t = float(input("Digite o tempo (s): "))
+
+s = s0 + v0 * t + 0.5 * a * (t ** 2)
+print("O valor de s é:", s)
