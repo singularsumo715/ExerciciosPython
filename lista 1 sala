@@ -1,0 +1,59 @@
+1) tempo = float(input("Tempo gasto na viagem (horas): "))
+velocidade = float(input("Velocidade média (km/h): "))
+
+distancia = tempo * velocidade
+litros_usados = distancia / 12
+
+print("Velocidade média:", velocidade)
+print("Tempo gasto:", tempo)
+print("Distância percorrida:", distancia)
+print("Litros usados:", litros_usados)
+
+
+2) f = float(input("Temperatura em Fahrenheit: "))
+
+c = ((f - 32) * 5) / 9
+
+print("Temperatura em Celsius:", c)
+
+
+3) raio = float(input("Raio da lata: "))
+altura = float(input("Altura da lata: "))
+
+volume = 3.14159 * raio * raio * altura
+
+print("Volume da lata:", volume)
+
+
+4) a = input("Digite o valor de A: ")
+b = input("Digite o valor de B: ")
+
+c = a
+a = b
+b = c
+
+print("Agora A vale:", a)
+print("Agora B vale:", b)
+
+
+5) numero = int(input("Digite um número inteiro: "))
+
+quadrado = numero * numero
+
+print("O quadrado do número é:", quadrado)
+
+
+6) valor = float(input("Valor da prestação: "))
+taxa = float(input("Taxa (%): "))
+tempo = float(input("Tempo (meses): "))
+
+prestacao = valor + (valor * (taxa / 100) * tempo)
+
+print("Valor da prestação em atraso:", prestacao)
+
+
+7) nr_coelhos = int(input("Número de coelhos: "))
+
+custo = (nr_coelhos * 0.70) / 18 + 10
+
+print("Custo total:", custo)
